@@ -25,16 +25,23 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
 header {
   max-width: 320px;
   margin-top: 80px;
+  height: 50%;
 }
 
 header strong {
   color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%);
 }
 
 .indented-heading {
