@@ -30,23 +30,57 @@ body {
 
 /* Add styles here! */
 header {
-  max-width: 320px;
   margin-top: 80px;
-  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30%;
 }
 
 header strong {
   color: hsl(160deg, 100%, 30%);
 }
 
+.title {
+  margin-left: 48px;
+}
+
+header p {
+  margin-left: 48px;
+  max-width: 320px;
+}
+
+.intro-chunk {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
 main {
   background-color: hsl(0deg, 0%, 60%);
   border-top: 8px solid hsl(0deg, 0%, 40%);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.card {
+  background-color: white;
+  max-width: 800px;
+  
+  padding-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p {
+  margin-left: 48px;
 }
 
 .indented-heading {
   background-color: hsl(45deg, 100%, 50%);
   padding: 24px 48px;
-  width: max-content;
+  margin-left: -8px;
+  /* margin-top: 20px; */
+  max-width: max-content;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
