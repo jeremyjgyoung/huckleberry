@@ -1,3 +1,21 @@
+/* Primary (green):
+
+- `hsl(160deg, 100%, 30%)`
+
+Secondary (gold):
+
+- `hsl(45deg, 100%, 50%)` (lighter)
+- `hsl(45deg, 100%, 40%)` (darker)
+
+Grays:
+
+- `hsl(0deg, 0%, 0%)` (black)
+- `hsl(0deg, 0%, 10%)` (very dark)
+- `hsl(0deg, 0%, 30%)` (dark)
+- `hsl(0deg, 0%, 40%)` (medium)
+- `hsl(0deg, 0%, 60%)` (light)
+- `hsl(0deg, 0%, 100%)` (white) */
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -16,5 +34,12 @@ header {
 }
 
 header strong {
-  color: hsl(140, 30%, 45%);
+  color: hsl(160deg, 100%, 30%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 24px 48px;
+  width: max-content;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
