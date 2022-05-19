@@ -16,6 +16,24 @@ Grays:
 - `hsl(0deg, 0%, 60%)` (light)
 - `hsl(0deg, 0%, 100%)` (white) */
 
+/* 
+NOTES ON APPROACH TO SOLUTION:
+- Josh does broad strokes
+  - ie. overall padding and margin first
+  - Then works on details
+    - ie. color, borders
+- Josh tries to make styles for one part of the design not influence other parts of the design
+  - ie. uses negative margin so the local change stays local
+
+NOTES ON SOLUTION:
+- I didn't use max-width wrapper
+- Note to self - can be useful to have a div within semantic markup ie. header and main
+then within that have the same class wrapper to set widths
+- Forgot to style the of the text - they were pretty close to defaults so didn't realize I needed to set those.
+- Style so that classes are reusable and don't affect overall layout ie. 24px padding then -24px margin to align text on a vertical line
+- Uses width: fit-content instead of max-width: max-content
+*/
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
